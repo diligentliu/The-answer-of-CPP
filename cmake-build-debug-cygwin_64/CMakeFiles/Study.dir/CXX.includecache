@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter12.cpp
+iostream
+-
+Twelve.h
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
+
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.cpp
+iostream
+-
+cstring
+-
+Twelve.h
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
+
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
+
