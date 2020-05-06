@@ -64,13 +64,34 @@ int main(){
     cout <<"Stock holdings:\n";
     int st;
     for (st = 0; st < STKS; ++st)
-        stocks[st].show();
+        cout << stocks[st];
     Stock top = stocks[0];
     for (st = 1; st < STKS; ++st) {
         top = top.topval(stocks[st]);
     }
     cout <<"\nMost valuable holding:\n";
-    top.show();
+    cout << top;
     return 0;
 }
 */
+/*12_4*/
+int main() {
+    using namespace STACK;
+    Stack S;
+    Item temp;
+    cout << boolalpha << S.isempty() << endl;
+    cout << boolalpha << S.isfull() << endl;
+    for (int i = 0; i < 10; ++i) {
+        S.pop(temp);
+        cout << boolalpha << S.isempty() << endl;
+        cout << boolalpha << S.isfull() << endl;
+        cout << temp << endl;
+    }
+    Stack S2;
+    cout << boolalpha << S2.isempty() << endl;
+    cout << boolalpha << S2.isfull() << endl;
+    S2 = S;
+    cout << boolalpha << S2.isempty() << endl;
+    cout << boolalpha << S2.isfull() << endl;
+    return 0;
+}

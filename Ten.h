@@ -105,12 +105,10 @@ struct people {
     int age;
 };
 typedef struct people ITem;
-
 class List {
 private:
     ITem items[MAX];
     int count;
-
 public:
     List();
     bool isempty() const;

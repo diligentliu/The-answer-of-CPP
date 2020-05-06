@@ -63,7 +63,26 @@ public:
     void update(double  price);
     void show()const;
     const Stock & topval(const Stock & s)const;
+    friend ostream & operator << (ostream & os, Stock & s);
 };
 //12_4
-
+namespace STACK {
+    typedef unsigned long Item;
+    class Stack {
+    private:
+        enum {MAX = 10};
+        Item * pitems;
+        int size;
+        int top;
+    public:
+        Stack(int n = MAX);
+        Stack(const Stack & st);
+        ~Stack();
+        bool isempty() const;
+        bool isfull() const;
+        bool push(const Item & item);
+        bool pop(Item & item);
+        Stack & operator = (const Stack & st);
+    };
+}
 #endif //STUDY_TWELVE_H

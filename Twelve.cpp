@@ -97,7 +97,7 @@ String & String::operator = (const String & st) {
     return *this;
 }
 String & String::operator = (const char * s) {
-    delete[] str;
+    delete [] str;
     len = strlen(s);
     str = new char[len + 1];
     strcpy(str, s);
@@ -215,10 +215,66 @@ void Stock::show() const {
          << " Share Price: $" << share_val
          << " Total Worth: $" << total_val << endl;
 }
+ostream & operator << (ostream & os, Stock & s){
+    os << "Company: " << s.company
+       << " Shares: " << s.shares << endl
+       << " Share Price: $" << s.share_val
+       << " Total Worth: $" << s.total_val << endl;
+}
 const Stock & Stock::topval(const Stock &s) const {
     if (s.total_val > total_val)
         return s;
     return *this;
 }
 //12_4
-
+namespace STACK{
+    Stack::Stack(int n) {
+        size = n;
+        pitems = new Item[n];
+        for (int i = 0; i < n; ++i) {
+            pitems[i] = i;
+        }
+        top = n;
+    }
+    Stack::Stack(const Stack & st){
+        size = st.size;
+        pitems = new Item[size];
+        for (int i = 0; i < size; ++i) {
+            pitems[i] = st.pitems[i];
+        }
+        top = st.top;
+    }
+    Stack::~Stack() {
+        delete [] pitems;
+    }
+    bool Stack::isempty() const {
+        return top == 0;
+    }
+    bool Stack::isfull() const {
+        return top == MAX;
+    }
+    bool Stack::push(const Item &item) {
+        if (top < MAX){
+            pitems[top++] = item;
+            return true;
+        }
+        return false;
+    }
+    bool Stack::pop(Item &item) {
+        if (top > 0){
+            item = pitems[--top];
+            return true;
+        }
+        return false;
+    }
+    Stack & Stack::operator = (const Stack & st) {
+        if (this == &st)
+            return *this;
+        delete [] pitems;
+        size = st.size;
+        for (int i = 0; i < size; ++i) {
+            pitems[i] = st.pitems[i];
+        }
+        top = st.top;
+    }
+}
