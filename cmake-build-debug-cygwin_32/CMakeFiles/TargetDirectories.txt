@@ -1,3 +1,0 @@
-/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin_32/CMakeFiles/rebuild_cache.dir
-/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin_32/CMakeFiles/Study.dir
-/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin_32/CMakeFiles/edit_cache.dir
