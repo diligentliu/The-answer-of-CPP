@@ -178,7 +178,7 @@ bool newcustomer(double x)
     return (std::rand() * x / RAND_MAX < 1);
 }
 */
-/*12_6*/
+/*12_6
 #include <cstdlib>
 #include <ctime>
 const int MIN_PER_HR = 60;
@@ -284,4 +284,4 @@ int main() {
 bool newcustomer(double x) {
     return (std::rand() * x / RAND_MAX < 1);
 }
-/**/
+*/
