@@ -278,7 +278,7 @@ namespace STACK{
         top = st.top;
     }
 }
-//12_5
+//12_5 & 12_6
 Queue::Queue(int qs) : qsize(qs){
     front = rear = NULL;
     items = 0;

@@ -15,6 +15,10 @@ cstdlib
 -
 ctime
 -
+cstdlib
+-
+ctime
+-
 
 /cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
 iostream

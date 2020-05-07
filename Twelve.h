@@ -85,7 +85,7 @@ namespace STACK {
         Stack & operator = (const Stack & st);
     };
 }
-//12_5
+//12_5 & 12_6
 class Customer {
 private:
     long arrive;
