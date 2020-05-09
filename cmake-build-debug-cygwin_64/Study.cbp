@@ -107,6 +107,9 @@
 		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter12.cpp">
 			<Option target="Study"/>
 		</Unit>
+		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter13.cpp">
+			<Option target="Study"/>
+		</Unit>
 		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Eleven.cpp">
 			<Option target="Study"/>
 		</Unit>
@@ -123,6 +126,12 @@
 			<Option target="Study"/>
 		</Unit>
 		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.h">
+			<Option target="Study"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.cpp">
+			<Option target="Study"/>
+		</Unit>
+		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.h">
 			<Option target="Study"/>
 		</Unit>
 		<Unit filename="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.cpp">

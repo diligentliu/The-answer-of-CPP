@@ -366,6 +366,33 @@ Chapter12.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter12.cpp.s
 .PHONY : Chapter12.cpp.s
 
+Chapter13.o: Chapter13.cpp.o
+
+.PHONY : Chapter13.o
+
+# target to build an object file
+Chapter13.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter13.cpp.o
+.PHONY : Chapter13.cpp.o
+
+Chapter13.i: Chapter13.cpp.i
+
+.PHONY : Chapter13.i
+
+# target to preprocess a source file
+Chapter13.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter13.cpp.i
+.PHONY : Chapter13.cpp.i
+
+Chapter13.s: Chapter13.cpp.s
+
+.PHONY : Chapter13.s
+
+# target to generate assembly for a file
+Chapter13.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter13.cpp.s
+.PHONY : Chapter13.cpp.s
+
 Eleven.o: Eleven.cpp.o
 
 .PHONY : Eleven.o
@@ -446,6 +473,33 @@ Ten.s: Ten.cpp.s
 Ten.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Ten.cpp.s
 .PHONY : Ten.cpp.s
+
+Thirteen.o: Thirteen.cpp.o
+
+.PHONY : Thirteen.o
+
+# target to build an object file
+Thirteen.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Thirteen.cpp.o
+.PHONY : Thirteen.cpp.o
+
+Thirteen.i: Thirteen.cpp.i
+
+.PHONY : Thirteen.i
+
+# target to preprocess a source file
+Thirteen.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Thirteen.cpp.i
+.PHONY : Thirteen.cpp.i
+
+Thirteen.s: Thirteen.cpp.s
+
+.PHONY : Thirteen.s
+
+# target to generate assembly for a file
+Thirteen.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Thirteen.cpp.s
+.PHONY : Thirteen.cpp.s
 
 Twelve.o: Twelve.cpp.o
 
@@ -537,6 +591,9 @@ help:
 	@echo "... Chapter12.o"
 	@echo "... Chapter12.i"
 	@echo "... Chapter12.s"
+	@echo "... Chapter13.o"
+	@echo "... Chapter13.i"
+	@echo "... Chapter13.s"
 	@echo "... Eleven.o"
 	@echo "... Eleven.i"
 	@echo "... Eleven.s"
@@ -546,6 +603,9 @@ help:
 	@echo "... Ten.o"
 	@echo "... Ten.i"
 	@echo "... Ten.s"
+	@echo "... Thirteen.o"
+	@echo "... Thirteen.i"
+	@echo "... Thirteen.s"
 	@echo "... Twelve.o"
 	@echo "... Twelve.i"
 	@echo "... Twelve.s"
