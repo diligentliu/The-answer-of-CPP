@@ -220,6 +220,7 @@ ostream & operator << (ostream & os, Stock & s){
        << " Shares: " << s.shares << endl
        << " Share Price: $" << s.share_val
        << " Total Worth: $" << s.total_val << endl;
+    return os;
 }
 const Stock & Stock::topval(const Stock &s) const {
     if (s.total_val > total_val)
@@ -276,6 +277,7 @@ namespace STACK{
             pitems[i] = st.pitems[i];
         }
         top = st.top;
+        return * this;
     }
 }
 //12_5 & 12_6
