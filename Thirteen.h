@@ -50,15 +50,51 @@ namespace Exercise2 {
         virtual Classic & operator = (const Classic & c);
     };
 }
-
-
-
-
-
-
-
-
-
-
+//13_3
+class DMA {
+private:
+    char * label;
+    int rating;
+public:
+    DMA(const char * l = "null", int r = 0);
+    DMA(const DMA & dma);
+    virtual ~DMA() = 0;
+    virtual void View();
+    DMA & operator = (const DMA & dma);
+    friend std::ostream & operator << (std::ostream & os, const DMA & dma);
+};
+class baseDMA : public DMA {
+public:
+    baseDMA(const char * l = "null", int r = 0);
+    baseDMA(const DMA & dma);
+    virtual ~baseDMA();
+    virtual void View();
+    baseDMA & operator = (const baseDMA &baseDma);
+    friend std::ostream & operator << (std::ostream & os, const baseDMA &baseDma);
+};
+class lacksDMA : public DMA {
+private:
+    enum { COL_LEN = 40 };
+    char color[COL_LEN];
+public:
+    lacksDMA(const char * c = "blank", const char * l = "null", int r = 0);
+    lacksDMA(const char * c, const DMA & dma);
+    virtual ~lacksDMA();
+    virtual void View();
+    friend std::ostream & operator << (std::ostream & os, const lacksDMA & lacksDma);
+};
+class hasDMA : public DMA {
+private:
+    char * style;
+public:
+    hasDMA(const char * s = "none", const char * l = "null", int r = 0);
+    hasDMA(const char * s, const DMA & dma);
+    hasDMA(const hasDMA & hasDma);
+    virtual ~hasDMA();
+    virtual void View();
+    hasDMA & operator = (const hasDMA & hasDma);
+    friend std::ostream & operator << (std::ostream & os, const hasDMA & hasDma);
+};
+//13_4
 
 #endif //STUDY_THIRTEEN_H

@@ -110,13 +110,97 @@ namespace Exercise2 {
         return * this;
     }
 }
-
-
-
-
-
-
-
-
-
-
+//13_3
+DMA::DMA(const char * l, int r) {
+    label = new char[strlen(l) + 1];
+    strcpy(label, l);
+    rating = r;
+}
+DMA::DMA(const DMA & dma) {
+    label = new char[strlen(dma.label) + 1];
+    strcpy(label, dma.label);
+    rating = dma.rating;
+}
+DMA::~DMA() noexcept {
+    delete [] label;
+}
+void DMA::View() {
+    std::cout << "Label: " << label << std::endl
+              << "Rating: " << rating << std::endl;
+}
+DMA & DMA::operator = (const DMA & dma) {
+    if (this == & dma)
+        return * this;
+    delete [] label;
+    label = new char[strlen(dma.label) + 1];
+    strcpy(label, dma.label);
+    rating = dma.rating;
+    return * this;
+}
+std::ostream & operator << (std::ostream & os, const DMA & dma) {
+    os << "Label: " << dma.label << std::endl
+       << "Rating: " << dma.rating;
+    return os;
+}
+baseDMA::baseDMA(const char * l, int r) : DMA(l, r) { }
+baseDMA::baseDMA(const DMA &dma) : DMA(dma) { }
+baseDMA::~baseDMA() noexcept { }
+void baseDMA::View() {
+    DMA::View();
+}
+baseDMA & baseDMA::operator = (const baseDMA &baseDma) {
+    DMA::operator = (baseDma);
+    return * this;
+}
+std::ostream & operator << (std::ostream & os, const baseDMA & baseDma) {
+    os << (const DMA &)baseDma;
+    return os;
+}
+lacksDMA::lacksDMA(const char *c, const char *l, int r) : DMA(l, r){
+    strcpy(color, c);
+}
+lacksDMA::lacksDMA(const char *c, const DMA &dma) : DMA(dma) {
+    strcpy(color, c);
+}
+lacksDMA::~lacksDMA() noexcept { }
+void lacksDMA::View() {
+    DMA::View();
+    std::cout << "Color: " << color << std::endl;
+}
+std::ostream & operator << (std::ostream & os, const lacksDMA & lacksDma) {
+    os << (const DMA &)lacksDma;
+    return os;
+}
+hasDMA::hasDMA(const char *s, const char *l, int r) : DMA(l, r) {
+    style = new char[strlen(s) + 1];
+    strcpy(style, s);
+}
+hasDMA::hasDMA(const char *s, const DMA &dma) : DMA(dma) {
+    style = new char[strlen(s) + 1];
+    strcpy(style, s);
+}
+hasDMA::hasDMA(const hasDMA &hasDma) :DMA(hasDma) {
+    style = new char[strlen(hasDma.style) + 1];
+    strcpy(style, hasDma.style);
+}
+hasDMA::~hasDMA() noexcept {
+    delete [] style;
+}
+void hasDMA::View() {
+    DMA::View();
+    std::cout << "Style: " << style << std::endl;
+}
+hasDMA & hasDMA::operator = (const hasDMA & hasDma) {
+    if (this == & hasDma)
+        return * this;
+    DMA::operator = (hasDma);
+    delete [] style;
+    style = new char[strlen(hasDma.style) + 1];
+    strcpy(style, hasDma.style);
+    return * this;
+}
+std::ostream & operator << (std::ostream & os, const hasDMA & hasDma) {
+    os << (const DMA &)hasDma << std::endl << hasDma.style;
+    return os;
+}
+//13_4

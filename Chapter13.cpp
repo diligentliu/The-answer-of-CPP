@@ -28,7 +28,7 @@ void Bravo(const Cd & disk){
     disk.Report();
 }
 */
-/*13_2*/
+/*13_2
 void Bravo(const Exercise2::Cd & disk);
 int main() {
     Exercise2::Cd c1("Beatles", "Capitol", 14, 35.5);
@@ -54,15 +54,47 @@ int main() {
 void Bravo(const Exercise2::Cd & disk){
     disk.Report();
 }
-
-
-
-
-
-
-
-
-
-
-
-
+*/
+/*13_3
+int main() {
+    DMA * dma[3];
+    char tempchar[20];
+    char tempchar2[10];
+    int tempint;
+    int type;
+    for (int i = 0; i < 3; ++i) {
+        cout << "Enter the label: ";
+        cin.getline(tempchar, 20);
+        cout << "Enter the rating: ";
+        cin >> tempint;
+        cin.get();
+        cout << "Enter your type(1 is baseDMA,2 is lacksDMA,3 is hasDMA): ";
+        cin >> type;
+        cin.get();
+        if (type == 1) {
+            dma[i] = new baseDMA(tempchar, tempint);
+        } else if (type == 2) {
+            cout << "Enter your color: ";
+            cin.getline(tempchar2, 10);
+            dma[i] = new lacksDMA(tempchar2, tempchar, tempint);
+        } else if (type == 3) {
+            cout << "Enter your style: ";
+            cin.getline(tempchar2, 10);
+            dma[i] = new hasDMA(tempchar2, tempchar, tempint);
+        } else
+            cout << "ERROR" << endl;
+    }
+    for (int i = 0; i < 3; ++i) {
+        dma[i]->View();
+        cout << endl;
+    }
+    for (int i = 0; i < 3; ++i) {
+        delete dma[i];
+    }
+    return 0;
+}
+*/
+/*13_4*/
+int main() {
+    return 0;
+}
