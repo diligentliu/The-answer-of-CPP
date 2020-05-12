@@ -19,4 +19,4 @@ add_executable(Study
             Chapter12.cpp
                 Twelve.cpp Twelve.h
             Chapter13.cpp
-                Thirteen.cpp Thirteen.h)
+                Thirteen.cpp Thirteen.h Chapter14.cpp Fourteen.cpp Fourteen.h)

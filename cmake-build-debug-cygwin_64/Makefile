@@ -393,6 +393,33 @@ Chapter13.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter13.cpp.s
 .PHONY : Chapter13.cpp.s
 
+Chapter14.o: Chapter14.cpp.o
+
+.PHONY : Chapter14.o
+
+# target to build an object file
+Chapter14.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter14.cpp.o
+.PHONY : Chapter14.cpp.o
+
+Chapter14.i: Chapter14.cpp.i
+
+.PHONY : Chapter14.i
+
+# target to preprocess a source file
+Chapter14.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter14.cpp.i
+.PHONY : Chapter14.cpp.i
+
+Chapter14.s: Chapter14.cpp.s
+
+.PHONY : Chapter14.s
+
+# target to generate assembly for a file
+Chapter14.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter14.cpp.s
+.PHONY : Chapter14.cpp.s
+
 Eleven.o: Eleven.cpp.o
 
 .PHONY : Eleven.o
@@ -419,6 +446,33 @@ Eleven.s: Eleven.cpp.s
 Eleven.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Eleven.cpp.s
 .PHONY : Eleven.cpp.s
+
+Fourteen.o: Fourteen.cpp.o
+
+.PHONY : Fourteen.o
+
+# target to build an object file
+Fourteen.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Fourteen.cpp.o
+.PHONY : Fourteen.cpp.o
+
+Fourteen.i: Fourteen.cpp.i
+
+.PHONY : Fourteen.i
+
+# target to preprocess a source file
+Fourteen.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Fourteen.cpp.i
+.PHONY : Fourteen.cpp.i
+
+Fourteen.s: Fourteen.cpp.s
+
+.PHONY : Fourteen.s
+
+# target to generate assembly for a file
+Fourteen.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Fourteen.cpp.s
+.PHONY : Fourteen.cpp.s
 
 Nine_4.o: Nine_4.cpp.o
 
@@ -594,9 +648,15 @@ help:
 	@echo "... Chapter13.o"
 	@echo "... Chapter13.i"
 	@echo "... Chapter13.s"
+	@echo "... Chapter14.o"
+	@echo "... Chapter14.i"
+	@echo "... Chapter14.s"
 	@echo "... Eleven.o"
 	@echo "... Eleven.i"
 	@echo "... Eleven.s"
+	@echo "... Fourteen.o"
+	@echo "... Fourteen.i"
+	@echo "... Fourteen.s"
 	@echo "... Nine_4.o"
 	@echo "... Nine_4.i"
 	@echo "... Nine_4.s"

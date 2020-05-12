@@ -94,7 +94,20 @@ int main() {
     return 0;
 }
 */
-/*13_4*/
+/*13_4
 int main() {
+    Port * p1 = new Port("A", "vintage", 5);
+    VintagePort * p2 = new VintagePort("B", 5, "C", 6);
+    Port * p3 = p2;
+    p1->Show();
+    cout << endl;
+    p2->Show();
+    cout << endl;
+    p3->Show();
+    cout << endl;
+    cout << * p1 << endl;
+    cout << * p2 << endl;
+    cout << * p3 << endl;
     return 0;
 }
+*/
