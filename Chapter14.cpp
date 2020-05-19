@@ -72,7 +72,7 @@ int main() {
     return 0;
 }
 */
-/*14_4*/
+/*14_4
 int main() {
     BadDude bd("Jack", "Anderson", 0.5, 100, 13);
     bd.Show();
@@ -81,3 +81,4 @@ int main() {
     bd.Show();
     return 0;
 }
+*/
