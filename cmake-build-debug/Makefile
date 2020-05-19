@@ -420,6 +420,33 @@ Chapter14.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter14.cpp.s
 .PHONY : Chapter14.cpp.s
 
+Chapter15.o: Chapter15.cpp.o
+
+.PHONY : Chapter15.o
+
+# target to build an object file
+Chapter15.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter15.cpp.o
+.PHONY : Chapter15.cpp.o
+
+Chapter15.i: Chapter15.cpp.i
+
+.PHONY : Chapter15.i
+
+# target to preprocess a source file
+Chapter15.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter15.cpp.i
+.PHONY : Chapter15.cpp.i
+
+Chapter15.s: Chapter15.cpp.s
+
+.PHONY : Chapter15.s
+
+# target to generate assembly for a file
+Chapter15.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter15.cpp.s
+.PHONY : Chapter15.cpp.s
+
 Eleven.o: Eleven.cpp.o
 
 .PHONY : Eleven.o
@@ -446,6 +473,33 @@ Eleven.s: Eleven.cpp.s
 Eleven.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Eleven.cpp.s
 .PHONY : Eleven.cpp.s
+
+Fifteen.o: Fifteen.cpp.o
+
+.PHONY : Fifteen.o
+
+# target to build an object file
+Fifteen.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Fifteen.cpp.o
+.PHONY : Fifteen.cpp.o
+
+Fifteen.i: Fifteen.cpp.i
+
+.PHONY : Fifteen.i
+
+# target to preprocess a source file
+Fifteen.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Fifteen.cpp.i
+.PHONY : Fifteen.cpp.i
+
+Fifteen.s: Fifteen.cpp.s
+
+.PHONY : Fifteen.s
+
+# target to generate assembly for a file
+Fifteen.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Fifteen.cpp.s
+.PHONY : Fifteen.cpp.s
 
 Fourteen.o: Fourteen.cpp.o
 
@@ -651,9 +705,15 @@ help:
 	@echo "... Chapter14.o"
 	@echo "... Chapter14.i"
 	@echo "... Chapter14.s"
+	@echo "... Chapter15.o"
+	@echo "... Chapter15.i"
+	@echo "... Chapter15.s"
 	@echo "... Eleven.o"
 	@echo "... Eleven.i"
 	@echo "... Eleven.s"
+	@echo "... Fifteen.o"
+	@echo "... Fifteen.i"
+	@echo "... Fifteen.s"
 	@echo "... Fourteen.o"
 	@echo "... Fourteen.i"
 	@echo "... Fourteen.s"
