@@ -16,18 +16,23 @@ public:
     void minus(double m_minus);
 };
 //10_2
-class Person{
-private:
-    static const int LIMIT = 25;
-    string lname;
-    char fname[LIMIT];
-public:
-    Person(){lname = ""; fname[0] = '\0';}
-    Person(const string & ln, const char * fn = "Heyyou");
-    ~Person(){}
-    void Show()const;
-    void FormalShow()const;
-};
+namespace EXERCISE2 {
+    class Person {
+    private:
+        static const int LIMIT = 25;
+        string lname;
+        char fname[LIMIT];
+    public:
+        Person() {
+            lname = "";
+            fname[0] = '\0';
+        }
+        Person(const string &ln, const char *fn = "Heyyou");
+        ~Person() {}
+        void Show() const;
+        void FormalShow() const;
+    };
+}
 //10_3
 class golf{
 private:

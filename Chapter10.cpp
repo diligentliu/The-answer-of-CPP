@@ -13,9 +13,9 @@ int main() {
 */
 /*10_2
 int main(){
-    Person one;
-    Person two("Smythecraft");
-    Person three("Dimwiddy", "Sam");
+    EXERCISE2::Person one;
+    EXERCISE2::Person two("Smythecraft");
+    EXERCISE2::Person three("Dimwiddy", "Sam");
     one.Show();
     one.FormalShow();
     two.Show();

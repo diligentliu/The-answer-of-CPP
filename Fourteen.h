@@ -1,3 +1,5 @@
+#include <climits>
+
 #ifndef STUDY_FOURTEEN_H
 #define STUDY_FOURTEEN_H
 #include <iostream>
@@ -63,7 +65,7 @@ namespace Exercise2 {
     };
 }
 //14_3
-template <class T>
+template <typename T>
 class QueueTp {
 private:
     static const int QSIZE = 10;
@@ -83,5 +85,131 @@ public:
     int queuecount() const { return items; }
     bool enqueue(const T & item);
     bool dequeue(T & item);
+    void Show();
+};
+template <typename T>
+QueueTp<T>::QueueTp(int qs) : qsize(qs) {
+    front = rear = NULL;
+    items = 0;
+}
+template <typename T>
+QueueTp<T>::~QueueTp() {
+    QNODE * temp;
+    while (front != NULL) {
+        temp = front;
+        front = front->next;
+        delete temp;
+    }
+}
+template <typename T>
+bool QueueTp<T>::enqueue(const T & item) {
+    if(isfull())
+        return false;
+    QNODE * add = new QNODE;
+    if (front == NULL) {
+        add->data = item;
+        add->next = NULL;
+        front = rear = add;
+    } else {
+        add->data = item;
+        add->next = NULL;
+        rear->next = add;
+        rear = add;
+    }
+    items++;
+    return true;
+}
+template <typename T>
+bool QueueTp<T>::dequeue(T & item) {
+    if(isempty())
+        return false;
+    item = front->data;
+    QNODE * temp;
+    temp = front;
+    front = front->next;
+    delete temp;
+    items--;
+    return true;
+}
+template <typename T>
+void QueueTp<T>::Show() {
+    if (isempty())
+        std::cout << "Queue is empty." << std::endl;
+    QNODE * p = front;
+    while (p != rear) {
+        std::cout << p->data << std::endl;
+        p = p->next;
+    }
+    std::cout << rear->data <<std::endl;
+}
+class Worker {
+private:
+    std::string fullname;
+    long id;
+public:
+    Worker() : fullname("no one"), id(0L) {}
+    Worker(const std::string & s, long n)
+            : fullname(s), id(n) {}
+    ~Worker() {}
+    void Set();
+    void Show() const;
+    friend std::ostream & operator << (std::ostream & os,const Worker & wk);
+};
+//14_4
+class Person {
+private:
+    char * firstname;
+    char * lastname;
+protected:
+    virtual void Data() const;
+public:
+    Person();
+    Person(char * fn, char * ln);
+    Person(const Person & person);
+    virtual ~Person();
+    virtual void Show() const;
+    virtual Person & operator = (const Person & person);
+};
+class Gunslinger : public virtual Person {
+private:
+    double pulltime;
+    int score;
+protected:
+    virtual void Data() const;
+public:
+    Gunslinger();
+    Gunslinger(char *fn, char *ln, double pt, int sc);
+    Gunslinger(const Gunslinger & gs);
+    virtual ~Gunslinger();
+    virtual void Show() const;
+    double Draw() const;
+    virtual Gunslinger & operator=(const Gunslinger &gs);
+};
+class PokerPlayer : public virtual Person {
+private:
+    int card;
+protected:
+    virtual void Data() const;
+public:
+    PokerPlayer();
+    PokerPlayer(char *fn, char *ln, int c = 0);
+    PokerPlayer(const PokerPlayer & pp);
+    virtual ~PokerPlayer() {}
+    virtual void Show() const;
+    int Draw();
+    int GetCard(int n = 0);
+    virtual PokerPlayer & operator=(const PokerPlayer &pp);
+};
+class BadDude : public Gunslinger, public PokerPlayer {
+protected:
+    void Data() const;
+public:
+    BadDude();
+    BadDude(char *fn, char *ln, double pt, int sc, int c = 0);
+    BadDude(const BadDude &bd);
+    virtual void Show() const;
+    double Gdraw() const;
+    int Cdraw();
+    virtual BadDude & operator=(const BadDude &bd);
 };
 #endif //STUDY_FOURTEEN_H

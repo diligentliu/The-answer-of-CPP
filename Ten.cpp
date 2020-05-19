@@ -22,17 +22,19 @@ void Bank::minus(double m_minus) {
     m_deposit -= m_minus;
 }
 //10_2
-Person::Person(const string & ln, const char *fn) {
-    lname = ln;
-    strncpy(fname, fn, LIMIT - 1);
-    fname[LIMIT - 1] = '\0';
-}
-void Person::Show() const {
-    cout << "name: " << fname << " " << lname << endl;
-}
-void Person::FormalShow() const {
-    cout << "lastname: " << lname << endl
-         << "firstname: " << fname << endl;
+namespace EXERCISE2 {
+    Person::Person(const string &ln, const char *fn) {
+        lname = ln;
+        strncpy(fname, fn, LIMIT - 1);
+        fname[LIMIT - 1] = '\0';
+    }
+    void Person::Show() const {
+        cout << "name: " << fname << " " << lname << endl;
+    }
+    void Person::FormalShow() const {
+        cout << "lastname: " << lname << endl
+             << "firstname: " << fname << endl;
+    }
 }
 //10_3
 golf::golf(const char *name, int hc) {
