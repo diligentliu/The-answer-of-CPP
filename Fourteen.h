@@ -1,3 +1,5 @@
+#include <climits>
+
 #ifndef STUDY_FOURTEEN_H
 #define STUDY_FOURTEEN_H
 #include <iostream>
@@ -63,7 +65,7 @@ namespace Exercise2 {
     };
 }
 //14_3
-template <class T>
+template <typename T>
 class QueueTp {
 private:
     static const int QSIZE = 10;
@@ -83,5 +85,76 @@ public:
     int queuecount() const { return items; }
     bool enqueue(const T & item);
     bool dequeue(T & item);
+    void Show();
 };
+template <typename T>
+QueueTp<T>::QueueTp(int qs) : qsize(qs) {
+    front = rear = NULL;
+    items = 0;
+}
+template <typename T>
+QueueTp<T>::~QueueTp() {
+    QNODE * temp;
+    while (front != NULL) {
+        temp = front;
+        front = front->next;
+        delete temp;
+    }
+}
+template <typename T>
+bool QueueTp<T>::enqueue(const T & item) {
+    if(isfull())
+        return false;
+    QNODE * add = new QNODE;
+    if (front == NULL) {
+        add->data = item;
+        add->next = NULL;
+        front = rear = add;
+    } else {
+        add->data = item;
+        add->next = NULL;
+        rear->next = add;
+        rear = add;
+    }
+    items++;
+    return true;
+}
+template <typename T>
+bool QueueTp<T>::dequeue(T & item) {
+    if(isempty())
+        return false;
+    item = front->data;
+    QNODE * temp;
+    temp = front;
+    front = front->next;
+    delete temp;
+    items--;
+    return true;
+}
+template <typename T>
+void QueueTp<T>::Show() {
+    if (isempty())
+        std::cout << "Queue is empty." << std::endl;
+    QNODE * p = front;
+    while (p != rear) {
+        std::cout << p->data << std::endl;
+        p = p->next;
+    }
+    std::cout << rear->data <<std::endl;
+}
+class Worker {
+private:
+    std::string fullname;
+    long id;
+public:
+    Worker() : fullname("no one"), id(0L) {}
+    Worker(const std::string & s, long n)
+            : fullname(s), id(n) {}
+    ~Worker() {}
+    void Set();
+    void Show() const;
+    friend std::ostream & operator << (std::ostream & os,const Worker & wk);
+};
+//14_4
+
 #endif //STUDY_FOURTEEN_H

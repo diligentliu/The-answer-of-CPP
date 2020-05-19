@@ -47,5 +47,27 @@ int main() {
 */
 /*14_3*/
 int main() {
+    QueueTp<Worker> q(3);
+    if(q.isempty())
+        cout << "Queue is empty" << endl;
+    Worker w1("A", 1);
+    q.enqueue(w1);
+    q.Show();
+    cout << endl;
+    Worker w2("B", 2);
+    q.enqueue(w2);
+    q.Show();
+    cout << endl;
+    Worker w3("C", 3);
+    q.enqueue(w3);
+    q.Show();
+    cout << endl;
+    if(q.isfull())
+        cout << "queue is full" << endl;
+    Worker w;
+    q.dequeue(w);
+    w.Show();
+    cout << endl;
+    q.Show();
     return 0;
 }

@@ -1,12 +1,12 @@
 #include "Fourteen.h"
 //14_1
 Wine::Wine(const char *l, int y, const int * yr, const int * bot)
-: yearandbottles(ArrayInt(yr, y), ArrayInt(bot, y)){
+: yearandbottles(ArrayInt(yr, y), ArrayInt(bot, y)) {
     label = l;
     years = y;
 }
 Wine::Wine(const char *l, int y)
-: yearandbottles(ArrayInt(y), ArrayInt(y)){
+: yearandbottles(ArrayInt(y), ArrayInt(y)) {
     label = l;
     years = y;
 }
@@ -66,47 +66,21 @@ namespace Exercise2 {
     }
 }
 //14_3
-template <class T>
-QueueTp<T>::QueueTp(int qs) : qsize(qs){
-    front = rear = NULL;
-    qsize = 0;
+void Worker::Set() {
+    std::cout << "Enter worker's name: ";
+    getline(std::cin, fullname);
+    std::cout << "Enter worker's ID: ";
+    std::cin >> id;
+    while (std::cin.get() != '\n')
+        continue;
 }
-template <class T>
-QueueTp<T>::~QueueTp() {
-    QNODE temp;
-    while (front != rear) {
-        temp = front;
-        front = front->next;
-        delete temp;
-    }
+void Worker::Show() const {
+    std::cout << "Name: " << fullname << std::endl;
+    std::cout << "Employee ID: " << id << std::endl;
 }
-template <class T>
-bool QueueTp<T>::enqueue(const T & item) {
-    if (isfull())
-        return false;
-    QNODE * add = new QNODE;
-    if (isempty()) {
-        add->data = item;
-        add->next = NULL;
-        front = rear = add;
-    } else {
-        add->data = item;
-        add->next = NULL;
-        rear->next = add;
-        rear = add;
-    }
-    ++items;
-    return true;
+std::ostream & operator << (std::ostream & os, const Worker & wk) {
+    os << "Name: " << wk.fullname << std::endl;
+    os << "Employee ID: " << wk.id;
+    return os;
 }
-template <class T>
-bool QueueTp<T>::dequeue(T & item) {
-    if (isempty())
-        return false;
-    QNODE *temp;
-    item = front->data;
-    temp = front;
-    front = front->next;
-    delete temp;
-    --items;
-    return true;
-}
+//14_4
