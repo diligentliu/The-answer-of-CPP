@@ -82,7 +82,7 @@ int main() {
     return 0;
 }
 */
-/*14_5*/
+/*14_5
 int main() {
     employee em("Trip", "Harris", "Thumper");
     cout << em << endl;
@@ -105,3 +105,4 @@ int main() {
         tri[i]->ShowAll();
     return 0;
 }
+*/

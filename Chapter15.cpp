@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Fifteen.h"
 using namespace std;
-/*15_1*/
+
 int main() {
+    cout << "Enter a number: ";
+    int num;
+    cin >> num;
+    cout << "The number is " << num << endl;
     return 0;
 }

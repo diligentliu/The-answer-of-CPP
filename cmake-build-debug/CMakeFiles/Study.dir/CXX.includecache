@@ -6,23 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.cpp
-Fourteen.h
-/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
-cstring
--
-ctime
--
-cstdlib
--
-
-/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
-climits
--
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter15.cpp
 iostream
 -
-valarray
+Fifteen.h
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.cpp
+iostream
 -
-string
--
+Fifteen.h
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+
+/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
 

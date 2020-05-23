@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug"
+CMAKE_BINARY_DIR = "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Study.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/Study.dir/flags.make
 
 CMakeFiles/Study.dir/Chapter04.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter04.cpp.o: ../Chapter04.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Study.dir/Chapter04.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Study.dir/Chapter04.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter04.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter04.cpp"
 
 CMakeFiles/Study.dir/Chapter04.cpp.i: cmake_force
@@ -72,7 +72,7 @@ CMakeFiles/Study.dir/Chapter04.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter05.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter05.cpp.o: ../Chapter05.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Study.dir/Chapter05.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Study.dir/Chapter05.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter05.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter05.cpp"
 
 CMakeFiles/Study.dir/Chapter05.cpp.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/Study.dir/Chapter05.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter06.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter06.cpp.o: ../Chapter06.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Study.dir/Chapter06.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Study.dir/Chapter06.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter06.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter06.cpp"
 
 CMakeFiles/Study.dir/Chapter06.cpp.i: cmake_force
@@ -98,7 +98,7 @@ CMakeFiles/Study.dir/Chapter06.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter07.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter07.cpp.o: ../Chapter07.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Study.dir/Chapter07.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Study.dir/Chapter07.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter07.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter07.cpp"
 
 CMakeFiles/Study.dir/Chapter07.cpp.i: cmake_force
@@ -111,7 +111,7 @@ CMakeFiles/Study.dir/Chapter07.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter08.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter08.cpp.o: ../Chapter08.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Study.dir/Chapter08.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Study.dir/Chapter08.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter08.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter08.cpp"
 
 CMakeFiles/Study.dir/Chapter08.cpp.i: cmake_force
@@ -124,7 +124,7 @@ CMakeFiles/Study.dir/Chapter08.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter09.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter09.cpp.o: ../Chapter09.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Study.dir/Chapter09.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Study.dir/Chapter09.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter09.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter09.cpp"
 
 CMakeFiles/Study.dir/Chapter09.cpp.i: cmake_force
@@ -137,7 +137,7 @@ CMakeFiles/Study.dir/Chapter09.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/golf.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/golf.cpp.o: ../golf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Study.dir/golf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Study.dir/golf.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/golf.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/golf.cpp"
 
 CMakeFiles/Study.dir/golf.cpp.i: cmake_force
@@ -150,7 +150,7 @@ CMakeFiles/Study.dir/golf.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Nine_4.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Nine_4.cpp.o: ../Nine_4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Study.dir/Nine_4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Study.dir/Nine_4.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Nine_4.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.cpp"
 
 CMakeFiles/Study.dir/Nine_4.cpp.i: cmake_force
@@ -163,7 +163,7 @@ CMakeFiles/Study.dir/Nine_4.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter10.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter10.cpp.o: ../Chapter10.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Study.dir/Chapter10.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Study.dir/Chapter10.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter10.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter10.cpp"
 
 CMakeFiles/Study.dir/Chapter10.cpp.i: cmake_force
@@ -176,7 +176,7 @@ CMakeFiles/Study.dir/Chapter10.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Ten.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Ten.cpp.o: ../Ten.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Study.dir/Ten.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Study.dir/Ten.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Ten.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.cpp"
 
 CMakeFiles/Study.dir/Ten.cpp.i: cmake_force
@@ -189,7 +189,7 @@ CMakeFiles/Study.dir/Ten.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter11.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter11.cpp.o: ../Chapter11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Study.dir/Chapter11.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Study.dir/Chapter11.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter11.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter11.cpp"
 
 CMakeFiles/Study.dir/Chapter11.cpp.i: cmake_force
@@ -202,7 +202,7 @@ CMakeFiles/Study.dir/Chapter11.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Eleven.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Eleven.cpp.o: ../Eleven.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Study.dir/Eleven.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Study.dir/Eleven.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Eleven.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Eleven.cpp"
 
 CMakeFiles/Study.dir/Eleven.cpp.i: cmake_force
@@ -215,7 +215,7 @@ CMakeFiles/Study.dir/Eleven.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter12.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter12.cpp.o: ../Chapter12.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Study.dir/Chapter12.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Study.dir/Chapter12.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter12.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter12.cpp"
 
 CMakeFiles/Study.dir/Chapter12.cpp.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/Study.dir/Chapter12.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Twelve.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Twelve.cpp.o: ../Twelve.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Study.dir/Twelve.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Study.dir/Twelve.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Twelve.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.cpp"
 
 CMakeFiles/Study.dir/Twelve.cpp.i: cmake_force
@@ -241,7 +241,7 @@ CMakeFiles/Study.dir/Twelve.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter13.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter13.cpp.o: ../Chapter13.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Study.dir/Chapter13.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Study.dir/Chapter13.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter13.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter13.cpp"
 
 CMakeFiles/Study.dir/Chapter13.cpp.i: cmake_force
@@ -254,7 +254,7 @@ CMakeFiles/Study.dir/Chapter13.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Thirteen.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Thirteen.cpp.o: ../Thirteen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Study.dir/Thirteen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Study.dir/Thirteen.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Thirteen.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.cpp"
 
 CMakeFiles/Study.dir/Thirteen.cpp.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/Study.dir/Thirteen.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter14.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter14.cpp.o: ../Chapter14.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Study.dir/Chapter14.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Study.dir/Chapter14.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter14.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter14.cpp"
 
 CMakeFiles/Study.dir/Chapter14.cpp.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/Study.dir/Chapter14.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Fourteen.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Fourteen.cpp.o: ../Fourteen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Study.dir/Fourteen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Study.dir/Fourteen.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Fourteen.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.cpp"
 
 CMakeFiles/Study.dir/Fourteen.cpp.i: cmake_force
@@ -293,7 +293,7 @@ CMakeFiles/Study.dir/Fourteen.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Chapter15.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Chapter15.cpp.o: ../Chapter15.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Study.dir/Chapter15.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Study.dir/Chapter15.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Chapter15.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter15.cpp"
 
 CMakeFiles/Study.dir/Chapter15.cpp.i: cmake_force
@@ -306,7 +306,7 @@ CMakeFiles/Study.dir/Chapter15.cpp.s: cmake_force
 
 CMakeFiles/Study.dir/Fifteen.cpp.o: CMakeFiles/Study.dir/flags.make
 CMakeFiles/Study.dir/Fifteen.cpp.o: ../Fifteen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Study.dir/Fifteen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Study.dir/Fifteen.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Fifteen.cpp.o -c "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.cpp"
 
 CMakeFiles/Study.dir/Fifteen.cpp.i: cmake_force
@@ -365,7 +365,7 @@ Study.exe: CMakeFiles/Study.dir/Chapter15.cpp.o
 Study.exe: CMakeFiles/Study.dir/Fifteen.cpp.o
 Study.exe: CMakeFiles/Study.dir/build.make
 Study.exe: CMakeFiles/Study.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Study.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Study.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Study.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -378,6 +378,6 @@ CMakeFiles/Study.dir/clean:
 .PHONY : CMakeFiles/Study.dir/clean
 
 CMakeFiles/Study.dir/depend:
-	cd "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug/CMakeFiles/Study.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin" "/cygdrive/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-cygwin/CMakeFiles/Study.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Study.dir/depend
 
