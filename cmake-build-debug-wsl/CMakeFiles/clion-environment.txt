@@ -1,4 +1,4 @@
-ToolSet: Debian GNU/Linux 10 (buster) (local)@C:\Users\MuZhiyu\AppData\Local\Microsoft\WindowsApps\debian.exe
+ToolSet: Ubuntu 20.04 LTS (local)@C:\Users\MuZhiyu\AppData\Local\Microsoft\WindowsApps\ubuntu2004.exe
 Options: 
 
 Options:
