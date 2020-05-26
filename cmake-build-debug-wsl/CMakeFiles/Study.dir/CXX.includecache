@@ -1,0 +1,208 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter04.cpp
+iostream
+-
+string
+-
+cstring
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter05.cpp
+iostream
+-
+ctime
+-
+string
+-
+cstring
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter06.cpp
+iostream
+-
+cctype
+-
+cstdlib
+-
+cstring
+-
+fstream
+-
+string
+-
+fstream
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter07.cpp
+iostream
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter08.cpp
+iostream
+-
+cstring
+-
+cctype
+-
+cstring
+-
+cstring
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter09.cpp
+iostream
+-
+golf.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.h
+cstring
+-
+Nine_4.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter10.cpp
+iostream
+-
+Ten.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter11.cpp
+iostream
+-
+fstream
+-
+cstdlib
+-
+ctime
+-
+Eleven.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Eleven.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter12.cpp
+iostream
+-
+Twelve.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
+cstdlib
+-
+ctime
+-
+cstdlib
+-
+ctime
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter13.cpp
+iostream
+-
+Thirteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter14.cpp
+iostream
+-
+Fourteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter15.cpp
+iostream
+-
+Fifteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Eleven.cpp
+Eleven.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Eleven.h
+cmath
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Eleven.h
+iostream
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.cpp
+iostream
+-
+Fifteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.cpp
+Fourteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
+cstring
+-
+ctime
+-
+cstdlib
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
+climits
+-
+iostream
+-
+valarray
+-
+string
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.cpp
+iostream
+-
+Nine_4.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.cpp
+iostream
+-
+cstring
+-
+Ten.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.h
+string
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.cpp
+iostream
+-
+cstring
+-
+Thirteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.cpp
+iostream
+-
+cstring
+-
+Twelve.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.h
+iostream
+-
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.cpp
+iostream
+-
+cstring
+-
+golf.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.h
+
