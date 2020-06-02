@@ -33,6 +33,9 @@ CMakeFiles/Study.dir/Chapter14.cpp.o: ../Fourteen.h
 CMakeFiles/Study.dir/Chapter15.cpp.o: ../Chapter15.cpp
 CMakeFiles/Study.dir/Chapter15.cpp.o: ../Fifteen.h
 
+CMakeFiles/Study.dir/Chapter16.cpp.o: ../Chapter16.cpp
+CMakeFiles/Study.dir/Chapter16.cpp.o: ../Tixteen.h
+
 CMakeFiles/Study.dir/Eleven.cpp.o: ../Eleven.cpp
 CMakeFiles/Study.dir/Eleven.cpp.o: ../Eleven.h
 
@@ -50,6 +53,9 @@ CMakeFiles/Study.dir/Ten.cpp.o: ../Ten.h
 
 CMakeFiles/Study.dir/Thirteen.cpp.o: ../Thirteen.cpp
 CMakeFiles/Study.dir/Thirteen.cpp.o: ../Thirteen.h
+
+CMakeFiles/Study.dir/Tixteen.cpp.o: ../Tixteen.cpp
+CMakeFiles/Study.dir/Tixteen.cpp.o: ../Tixteen.h
 
 CMakeFiles/Study.dir/Twelve.cpp.o: ../Twelve.cpp
 CMakeFiles/Study.dir/Twelve.cpp.o: ../Twelve.h

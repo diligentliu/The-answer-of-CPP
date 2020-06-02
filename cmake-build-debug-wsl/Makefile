@@ -447,6 +447,33 @@ Chapter15.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter15.cpp.s
 .PHONY : Chapter15.cpp.s
 
+Chapter16.o: Chapter16.cpp.o
+
+.PHONY : Chapter16.o
+
+# target to build an object file
+Chapter16.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter16.cpp.o
+.PHONY : Chapter16.cpp.o
+
+Chapter16.i: Chapter16.cpp.i
+
+.PHONY : Chapter16.i
+
+# target to preprocess a source file
+Chapter16.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter16.cpp.i
+.PHONY : Chapter16.cpp.i
+
+Chapter16.s: Chapter16.cpp.s
+
+.PHONY : Chapter16.s
+
+# target to generate assembly for a file
+Chapter16.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter16.cpp.s
+.PHONY : Chapter16.cpp.s
+
 Eleven.o: Eleven.cpp.o
 
 .PHONY : Eleven.o
@@ -609,6 +636,33 @@ Thirteen.cpp.s:
 	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Thirteen.cpp.s
 .PHONY : Thirteen.cpp.s
 
+Tixteen.o: Tixteen.cpp.o
+
+.PHONY : Tixteen.o
+
+# target to build an object file
+Tixteen.cpp.o:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Tixteen.cpp.o
+.PHONY : Tixteen.cpp.o
+
+Tixteen.i: Tixteen.cpp.i
+
+.PHONY : Tixteen.i
+
+# target to preprocess a source file
+Tixteen.cpp.i:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Tixteen.cpp.i
+.PHONY : Tixteen.cpp.i
+
+Tixteen.s: Tixteen.cpp.s
+
+.PHONY : Tixteen.s
+
+# target to generate assembly for a file
+Tixteen.cpp.s:
+	$(MAKE) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Tixteen.cpp.s
+.PHONY : Tixteen.cpp.s
+
 Twelve.o: Twelve.cpp.o
 
 .PHONY : Twelve.o
@@ -708,6 +762,9 @@ help:
 	@echo "... Chapter15.o"
 	@echo "... Chapter15.i"
 	@echo "... Chapter15.s"
+	@echo "... Chapter16.o"
+	@echo "... Chapter16.i"
+	@echo "... Chapter16.s"
 	@echo "... Eleven.o"
 	@echo "... Eleven.i"
 	@echo "... Eleven.s"
@@ -726,6 +783,9 @@ help:
 	@echo "... Thirteen.o"
 	@echo "... Thirteen.i"
 	@echo "... Thirteen.s"
+	@echo "... Tixteen.o"
+	@echo "... Tixteen.i"
+	@echo "... Tixteen.s"
 	@echo "... Twelve.o"
 	@echo "... Twelve.i"
 	@echo "... Twelve.s"

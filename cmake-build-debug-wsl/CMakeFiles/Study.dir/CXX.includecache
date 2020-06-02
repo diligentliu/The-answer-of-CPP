@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.cpp
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp
 iostream
 -
-Fifteen.h
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+string
+-
+memory
+-
+Tixteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Tixteen.h
 
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Tixteen.h
 
