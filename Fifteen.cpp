@@ -20,7 +20,7 @@ bool Tv::voldown() {
     return true;
 }
 bool Tv::set_Rmode(Remote & R) {
-    if (state == Remote::Off)
+    if (!ison())
         return false;
     R.get_Rmode() = (R.get_Rmode() == Remote::Interactice ? Remote::Normal : Remote::Interactice);
     return true;
@@ -49,3 +49,4 @@ void Tv::settings() const {
         cout << "input = " << (input == Remote::TV ? "TV" : "DVD") << endl;
     }
 }
+//15_2
