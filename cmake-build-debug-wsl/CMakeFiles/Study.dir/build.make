@@ -330,18 +330,18 @@ CMakeFiles/Study.dir/Chapter16.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Study.dir/Chapter16.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp" -o CMakeFiles/Study.dir/Chapter16.cpp.s
 
-CMakeFiles/Study.dir/Tixteen.cpp.o: CMakeFiles/Study.dir/flags.make
-CMakeFiles/Study.dir/Tixteen.cpp.o: ../Tixteen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Study.dir/Tixteen.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Tixteen.cpp.o -c "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Tixteen.cpp"
+CMakeFiles/Study.dir/Sixteen.cpp.o: CMakeFiles/Study.dir/flags.make
+CMakeFiles/Study.dir/Sixteen.cpp.o: ../Sixteen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Study.dir/Sixteen.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Study.dir/Sixteen.cpp.o -c "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp"
 
-CMakeFiles/Study.dir/Tixteen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Study.dir/Tixteen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Tixteen.cpp" > CMakeFiles/Study.dir/Tixteen.cpp.i
+CMakeFiles/Study.dir/Sixteen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Study.dir/Sixteen.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp" > CMakeFiles/Study.dir/Sixteen.cpp.i
 
-CMakeFiles/Study.dir/Tixteen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Study.dir/Tixteen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Tixteen.cpp" -o CMakeFiles/Study.dir/Tixteen.cpp.s
+CMakeFiles/Study.dir/Sixteen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Study.dir/Sixteen.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp" -o CMakeFiles/Study.dir/Sixteen.cpp.s
 
 # Object files for target Study
 Study_OBJECTS = \
@@ -366,7 +366,7 @@ Study_OBJECTS = \
 "CMakeFiles/Study.dir/Chapter15.cpp.o" \
 "CMakeFiles/Study.dir/Fifteen.cpp.o" \
 "CMakeFiles/Study.dir/Chapter16.cpp.o" \
-"CMakeFiles/Study.dir/Tixteen.cpp.o"
+"CMakeFiles/Study.dir/Sixteen.cpp.o"
 
 # External object files for target Study
 Study_EXTERNAL_OBJECTS =
@@ -392,7 +392,7 @@ Study: CMakeFiles/Study.dir/Fourteen.cpp.o
 Study: CMakeFiles/Study.dir/Chapter15.cpp.o
 Study: CMakeFiles/Study.dir/Fifteen.cpp.o
 Study: CMakeFiles/Study.dir/Chapter16.cpp.o
-Study: CMakeFiles/Study.dir/Tixteen.cpp.o
+Study: CMakeFiles/Study.dir/Sixteen.cpp.o
 Study: CMakeFiles/Study.dir/build.make
 Study: CMakeFiles/Study.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Study"

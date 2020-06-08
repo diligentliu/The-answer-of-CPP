@@ -21,9 +21,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fifteen.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Fifteen.cpp.o"
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Fourteen.cpp.o"
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Nine_4.cpp.o"
+  "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Sixteen.cpp.o"
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Ten.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Ten.cpp.o"
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Thirteen.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Thirteen.cpp.o"
-  "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Tixteen.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Tixteen.cpp.o"
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Twelve.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/Twelve.cpp.o"
   "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.cpp" "/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/cmake-build-debug-wsl/CMakeFiles/Study.dir/golf.cpp.o"
   )
