@@ -24,7 +24,7 @@ bool is_Palindrome(string & str) {
     return true;
 }
 */
-/*16_2
+/*16_2*/
 #include <cctype>
 bool is_Palindrome(string & str);
 
@@ -49,5 +49,5 @@ bool is_Palindrome(string & str) {
     }
     return true;
 }
-*/
+
 /*16_3*/
