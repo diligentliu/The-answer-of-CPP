@@ -74,7 +74,42 @@ int reduce(long ar[], int n) {
     return unique(ar, ar + n) - ar;
 }
 */
-/*16_5*/
+/*16_5
+template <class T>
+int reduce(T ar[], int n);
+
 int main() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+    long arr[n];
+    cout << "Enter the " << n << " numbers(long): " << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    int num = reduce(arr, n);
+    cout << num << endl;
+    int m;
+    cout << "Enter m: ";
+    cin >> m;
+    string arrstr[m];
+    cout << "Enter the " << m << " strings: " << endl;
+    for (int i = 0; i < m; i++) {
+        cin.get();
+        getline(cin, arrstr[i]);
+    }
+    num = reduce(arrstr, m);
+    cout << num;
+    return 0;
+}
+template <class T>
+int reduce(T ar[], int n) {
+    sort(ar, ar + n);
+    return unique(ar, ar + n) - ar;
+}
+*/
+/*16_6*/
+int main() {
+    
     return 0;
 }
