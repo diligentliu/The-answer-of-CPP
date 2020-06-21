@@ -1,7 +1,9 @@
+#include <algorithm>
 #include <iostream>
-#include <string>
 #include <memory>
+#include <string>
 #include <vector>
+
 #include "Sixteen.h"
 using namespace std;
 /*16_1
@@ -50,4 +52,29 @@ bool is_Palindrome(string & str) {
     return true;
 }
 */
-/*16_3*/
+/*16_3
+int reduce(long ar[], int n);
+
+int main() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+    long arr[n];
+    cout << "Enter the " << n << " numbers(long): " << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    int num = reduce(arr, n);
+    cout << num;
+    return 0;
+}
+
+int reduce(long ar[], int n) {
+    sort(ar, ar + n);
+    return unique(ar, ar + n) - ar;
+}
+*/
+/*16_5*/
+int main() {
+    return 0;
+}

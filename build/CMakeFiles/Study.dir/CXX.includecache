@@ -7,11 +7,13 @@
 #IncludeRegexTransform: 
 
 F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp
+algorithm
+-
 iostream
 -
-string
--
 memory
+-
+string
 -
 vector
 -
