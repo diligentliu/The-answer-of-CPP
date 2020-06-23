@@ -7,20 +7,30 @@
 #IncludeRegexTransform: 
 
 /mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp
-iostream
+algorithm
 -
-string
+iostream
 -
 memory
 -
+string
+-
 vector
 -
-Sixteen.h
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.h
 cctype
 -
-stdio.h
+cstdlib
 -
-
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.h
+ctime
+-
+queue
+-
+cstdlib
+-
+ctime
+-
+iterator
+-
+iterator
+-
 

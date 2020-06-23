@@ -197,11 +197,11 @@ int main() {
 bool newcustomer2(double x) { return (rand() * x / RAND_MAX < 1); }
 */
 /*16_7
-#include <iterator>
 #include <cstdlib>
 #include <ctime>
+#include <iterator>
 vector<int> Lotto(int n1, int n2);
-int main() { 
+int main() {
     vector<int> result;
     result = Lotto(51, 6);
     ostream_iterator<int, char> out_iter(cout, " ");
@@ -222,7 +222,39 @@ vector<int> Lotto(int n1, int n2) {
 }
 */
 /*16_8*/
-int main() {
+#include <iterator>
+void EnterFriends(vector<string>& vec_str);
 
+int main() {
+    vector<string> FriendsMat, FriendsPot, TotalFriends;
+    cout << "Hi, Mat! Please enter your friends: \n";
+    EnterFriends(FriendsMat);
+    cout << "Hi, Pot! Please enter your friends: \n";
+    EnterFriends(FriendsPot);
+    TotalFriends.insert(TotalFriends.end(), FriendsMat.begin(),
+                        FriendsMat.end());
+    TotalFriends.insert(TotalFriends.end(), FriendsPot.begin(),
+                        FriendsPot.end());
+    ostream_iterator<string, char> out_iter(cout, "\n");
+    copy(TotalFriends.begin(), TotalFriends.end(), out_iter);
+    cout << endl;
+    sort(TotalFriends.begin(), TotalFriends.end());
+    TotalFriends.erase(unique(TotalFriends.begin(), TotalFriends.end()),
+                       TotalFriends.end());
+    copy(TotalFriends.begin(), TotalFriends.end(), out_iter);
+    cout << endl;
+    return 0;
+}
+void EnterFriends(vector<string>& vec_str) {
+    string temp;
+    getline(cin, temp);
+    while (temp != "") {
+        vec_str.push_back(temp);
+        getline(cin, temp);
+    }
+}
+/*16_9*/
+int main() {
+    
     return 0;
 }
