@@ -21,10 +21,12 @@ Sixteen.h
 F:/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.h
 cctype
 -
-
-F:/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp
-Sixteen.h
-F:/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.h
+cstdlib
+-
+ctime
+-
+queue
+-
 
 F:/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.h
 
