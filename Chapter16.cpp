@@ -221,7 +221,7 @@ vector<int> Lotto(int n1, int n2) {
     return result;
 }
 */
-/*16_8*/
+/*16_8
 #include <iterator>
 void EnterFriends(vector<string>& vec_str);
 
@@ -252,9 +252,9 @@ void EnterFriends(vector<string>& vec_str) {
         vec_str.push_back(temp);
         getline(cin, temp);
     }
-}
+}*/
 /*16_9*/
 int main() {
-    
+
     return 0;
 }
