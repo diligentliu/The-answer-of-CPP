@@ -4,7 +4,6 @@
 #include <string>
 #include <vector>
 
-#include "Sixteen.h"
 using namespace std;
 /*16_1
 bool is_Palindrome(string & str);
@@ -197,8 +196,33 @@ int main() {
 
 bool newcustomer2(double x) { return (rand() * x / RAND_MAX < 1); }
 */
-/*16_7*/
+/*16_7
+#include <iterator>
+#include <cstdlib>
+#include <ctime>
+vector<int> Lotto(int n1, int n2);
+int main() { 
+    vector<int> result;
+    result = Lotto(51, 6);
+    ostream_iterator<int, char> out_iter(cout, " ");
+    copy(result.begin(), result.end(), out_iter);
+    return 0;
+}
+vector<int> Lotto(int n1, int n2) {
+    srand((unsigned)time(NULL));
+    vector<int> all, result;
+    for(int i = 1; i <= n1; ++i)
+        all.push_back(i);
+    for(int i = 1; i <= n2; ++i) {
+        random_shuffle(all.begin(),all.end());
+        result.push_back(all[0]);
+    }
+    sort(result.begin(), result.end());
+    return result;
+}
+*/
+/*16_8*/
 int main() {
-    
+
     return 0;
 }
