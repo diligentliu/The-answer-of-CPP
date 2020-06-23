@@ -103,10 +103,5 @@
   "directory": "F:/Program Files/Mine/study/TDOWN/C++/Study/build",
   "command": "\"F:/Program Files/MSYS2/mingw32/bin/g++.exe\"    -g   -std=gnu++14 -o CMakeFiles/Study.dir/Chapter16.cpp.obj -c \"F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp\"",
   "file": "F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp"
-},
-{
-  "directory": "F:/Program Files/Mine/study/TDOWN/C++/Study/build",
-  "command": "\"F:/Program Files/MSYS2/mingw32/bin/g++.exe\"    -g   -std=gnu++14 -o CMakeFiles/Study.dir/Sixteen.cpp.obj -c \"F:/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp\"",
-  "file": "F:/Program Files/Mine/study/TDOWN/C++/Study/Sixteen.cpp"
 }
 ]

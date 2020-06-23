@@ -16,7 +16,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Study.dir/Fifteen.cpp.obj"
   "CMakeFiles/Study.dir/Fourteen.cpp.obj"
   "CMakeFiles/Study.dir/Nine_4.cpp.obj"
-  "CMakeFiles/Study.dir/Sixteen.cpp.obj"
   "CMakeFiles/Study.dir/Ten.cpp.obj"
   "CMakeFiles/Study.dir/Thirteen.cpp.obj"
   "CMakeFiles/Study.dir/Twelve.cpp.obj"

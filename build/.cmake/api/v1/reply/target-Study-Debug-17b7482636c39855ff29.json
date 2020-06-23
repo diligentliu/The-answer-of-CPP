@@ -67,8 +67,7 @@
 				23,
 				25,
 				26,
-				28,
-				29
+				28
 			]
 		}
 	],
@@ -125,8 +124,7 @@
 				23,
 				25,
 				26,
-				28,
-				29
+				28
 			]
 		},
 		{
@@ -140,8 +138,7 @@
 				18,
 				21,
 				24,
-				27,
-				30
+				27
 			]
 		}
 	],
@@ -312,17 +309,6 @@
 			"compileGroupIndex" : 0,
 			"path" : "Chapter16.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Sixteen.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Sixteen.h",
-			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

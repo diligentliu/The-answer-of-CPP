@@ -602,33 +602,6 @@ Nine_4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Nine_4.cpp.s
 .PHONY : Nine_4.cpp.s
 
-Sixteen.obj: Sixteen.cpp.obj
-
-.PHONY : Sixteen.obj
-
-# target to build an object file
-Sixteen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Sixteen.cpp.obj
-.PHONY : Sixteen.cpp.obj
-
-Sixteen.i: Sixteen.cpp.i
-
-.PHONY : Sixteen.i
-
-# target to preprocess a source file
-Sixteen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Sixteen.cpp.i
-.PHONY : Sixteen.cpp.i
-
-Sixteen.s: Sixteen.cpp.s
-
-.PHONY : Sixteen.s
-
-# target to generate assembly for a file
-Sixteen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Sixteen.cpp.s
-.PHONY : Sixteen.cpp.s
-
 Ten.obj: Ten.cpp.obj
 
 .PHONY : Ten.obj
@@ -797,9 +770,6 @@ help:
 	@echo "... Nine_4.obj"
 	@echo "... Nine_4.i"
 	@echo "... Nine_4.s"
-	@echo "... Sixteen.obj"
-	@echo "... Sixteen.i"
-	@echo "... Sixteen.s"
 	@echo "... Ten.obj"
 	@echo "... Ten.i"
 	@echo "... Ten.s"

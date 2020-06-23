@@ -25,4 +25,4 @@ add_executable(Study
             Chapter15.cpp
                 Fifteen.cpp Fifteen.h
             Chapter16.cpp
-                Sixteen.cpp Sixteen.h)
+            )
