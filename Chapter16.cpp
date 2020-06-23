@@ -211,9 +211,9 @@ int main() {
 vector<int> Lotto(int n1, int n2) {
     srand((unsigned)time(NULL));
     vector<int> all, result;
-    for(int i = 1; i <= n1; ++i)
+    for (int i = 1; i <= n1; ++i)
         all.push_back(i);
-    for(int i = 1; i <= n2; ++i) {
+    for (int i = 1; i <= n2; ++i) {
         random_shuffle(all.begin(),all.end());
         result.push_back(all[0]);
     }
@@ -253,8 +253,39 @@ void EnterFriends(vector<string>& vec_str) {
         getline(cin, temp);
     }
 }*/
-/*16_9*/
+/*16_9
+#include <ctime>
+#include <list>
 int main() {
-
+    int MAXSIZE = 1000000;
+    vector<int> vi0(MAXSIZE);
+    int temp;
+    for (int i = 0; i < MAXSIZE; ++i) {
+        temp = rand() / (RAND_MAX + 1) * MAXSIZE;
+        vi0.push_back(temp);
+    }
+    vector<int> vi(vi0);
+    list<int> li(vi0.begin(), vi0.end());
+    clock_t start = clock();
+    sort(vi.begin(), vi.end());
+    clock_t end = clock();
+    cout << (double)(end - start) / CLOCKS_PER_SEC << endl;
+    start = clock();
+    li.sort();
+    end = clock();
+    cout << (double)(end - start) / CLOCKS_PER_SEC << endl;
+    li.assign(vi0.begin(), vi0.end());
+    start = clock();
+    vi.assign(li.begin(), li.end());
+    sort(vi.begin(), vi.end());
+    li.assign(vi.begin(), vi.end());
+    end = clock();
+    cout << (double)(end - start) / CLOCKS_PER_SEC << endl;
+    return 0;
+}
+*/
+/*16_10*/
+int main() {
+    
     return 0;
 }
