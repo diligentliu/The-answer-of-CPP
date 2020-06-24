@@ -6,35 +6,9 @@
 
 #IncludeRegexTransform: 
 
-F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp
-algorithm
--
+F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter17.cpp
 iostream
 -
-memory
--
-string
--
-vector
--
-cctype
--
-cstdlib
--
-ctime
--
-queue
--
-cstdlib
--
-ctime
--
-iterator
--
-iterator
--
-ctime
--
-list
+cstdio
 -
 

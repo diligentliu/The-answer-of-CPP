@@ -494,6 +494,33 @@ Chapter16.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter16.cpp.s
 .PHONY : Chapter16.cpp.s
 
+Chapter17.obj: Chapter17.cpp.obj
+
+.PHONY : Chapter17.obj
+
+# target to build an object file
+Chapter17.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter17.cpp.obj
+.PHONY : Chapter17.cpp.obj
+
+Chapter17.i: Chapter17.cpp.i
+
+.PHONY : Chapter17.i
+
+# target to preprocess a source file
+Chapter17.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter17.cpp.i
+.PHONY : Chapter17.cpp.i
+
+Chapter17.s: Chapter17.cpp.s
+
+.PHONY : Chapter17.s
+
+# target to generate assembly for a file
+Chapter17.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Study.dir/build.make CMakeFiles/Study.dir/Chapter17.cpp.s
+.PHONY : Chapter17.cpp.s
+
 Eleven.obj: Eleven.cpp.obj
 
 .PHONY : Eleven.obj
@@ -758,6 +785,9 @@ help:
 	@echo "... Chapter16.obj"
 	@echo "... Chapter16.i"
 	@echo "... Chapter16.s"
+	@echo "... Chapter17.obj"
+	@echo "... Chapter17.i"
+	@echo "... Chapter17.s"
 	@echo "... Eleven.obj"
 	@echo "... Eleven.i"
 	@echo "... Eleven.s"
