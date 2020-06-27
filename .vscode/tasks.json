@@ -11,7 +11,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "F:\\Program Files\\MSYS2\\mingw64\\bin"
             },
             "problemMatcher": [
                 "$gcc"
