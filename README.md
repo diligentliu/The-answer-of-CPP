@@ -13,4 +13,4 @@ int main(){
 }
 ```
 
-### <font face="楷体">哦对了，差点忘记说了，我用的IDE是CLion，Toolchain是WSL</font>
+### <font face="楷体">哦对了，差点忘记说了，我用的IDE是CLion，Toolchain是WSL不过后期选了VScode</font>
