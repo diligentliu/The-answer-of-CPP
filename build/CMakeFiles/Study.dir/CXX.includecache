@@ -6,43 +6,15 @@
 
 #IncludeRegexTransform: 
 
-F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter16.cpp
-algorithm
+F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter17.cpp
+fstream
 -
 iostream
 -
-memory
--
-string
+iterator
 -
 vector
 -
-cctype
--
-cstdlib
--
-ctime
--
-queue
--
-cstdlib
--
-ctime
--
-iterator
--
-iterator
--
-ctime
--
-list
--
-
-F:/Program Files/Mine/study/TDOWN/C++/Study/Chapter17.cpp
-cmath
--
-iomanip
--
-iostream
+algorithm
 -
 

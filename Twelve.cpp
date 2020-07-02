@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cstring>
 #include "Twelve.h"
+
 using namespace std;
+
 //12_1
 Cow::Cow() {
     strcpy(name, "");
@@ -9,6 +11,7 @@ Cow::Cow() {
     hobby[0] = '\0';
     weight = 0.0;
 }
+
 Cow::Cow(const char *nm, const char *ho, double wt) {
     strcpy(name, nm);
     int len = strlen(ho);
@@ -16,6 +19,7 @@ Cow::Cow(const char *nm, const char *ho, double wt) {
     strcpy(hobby, ho);
     weight = wt;
 }
+
 Cow::Cow(const Cow &c) {
     strcpy(name, c.name);
     int len = strlen(c.hobby);
@@ -23,10 +27,12 @@ Cow::Cow(const Cow &c) {
     strcpy(hobby, c.hobby);
     weight = c.weight;
 }
+
 Cow::~Cow() {
     delete[] hobby;
 }
-Cow & Cow::operator = (const Cow &c) {
+
+Cow &Cow::operator=(const Cow &c) {
     if (this == &c)
         return *this;
     strcpy(name, c.name);
@@ -37,26 +43,32 @@ Cow & Cow::operator = (const Cow &c) {
     weight = c.weight;
     return *this;
 }
+
 void Cow::ShowCow() const {
     cout << "Name: " << name << std::endl;
     cout << "Hobby: " << hobby << std::endl;
     cout << "Weight: " << weight << std::endl;
 }
+
 //12_2
 int String::num_strings = 0;
+
 int String::HowMany() {
     return num_strings;
 }
+
 void String::stringlow() {
     for (int i = 0; i < len; ++i) {
         str[i] = tolower(str[i]);
     }
 }
+
 void String::stringup() {
     for (int i = 0; i < len; ++i) {
         str[i] = toupper(str[i]);
     }
 }
+
 int String::has(char c) {
     int count = 0;
     for (int i = 0; i < len; ++i) {
@@ -65,29 +77,34 @@ int String::has(char c) {
     }
     return count;
 }
+
 String::String(const char *s) {
     len = strlen(s);
     str = new char[len + 1];
     strcpy(str, s);
     ++num_strings;
 }
+
 String::String() {
     len = 4;
     str = new char[1];
     str[0] = '\0';
     num_strings++;
 }
-String::String(const String & st) {
+
+String::String(const String &st) {
     ++num_strings;
     len = st.len;
     str = new char[len + 1];
     strcpy(str, st.str);
 }
+
 String::~String() {
     --num_strings;
-    delete [] str;
+    delete[] str;
 }
-String & String::operator = (const String & st) {
+
+String &String::operator=(const String &st) {
     if (this == &st)
         return *this;
     delete[] str;
@@ -96,14 +113,16 @@ String & String::operator = (const String & st) {
     strcpy(str, st.str);
     return *this;
 }
-String & String::operator = (const char * s) {
-    delete [] str;
+
+String &String::operator=(const char *s) {
+    delete[] str;
     len = strlen(s);
     str = new char[len + 1];
     strcpy(str, s);
     return *this;
 }
-String String::operator + (const String & st) {
+
+String String::operator+(const String &st) {
     int length = len + st.length() - 1;
     char str2[length];
     for (int i = 0; i < len - 1; ++i) {
@@ -114,13 +133,16 @@ String String::operator + (const String & st) {
     }
     return String(str2);
 }
-char & String::operator[](int i) {
+
+char &String::operator[](int i) {
     return str[i];
 }
-const char & String::operator[](int i)const {
+
+const char &String::operator[](int i) const {
     return str[i];
 }
-String operator + (const char * s, String & st){
+
+String operator+(const char *s, String &st) {
     int length = strlen(s) + st.length() - 1;
     char str2[length];
     for (int i = 0; i < strlen(s) - 1; ++i) {
@@ -131,20 +153,25 @@ String operator + (const char * s, String & st){
     }
     return String(str2);
 }
-bool operator < (const String & st1, const String & st2) {
+
+bool operator<(const String &st1, const String &st2) {
     return (strcmp(st1.str, st2.str) < 0);
 }
-bool operator > (const String & st1, const String & st2) {
+
+bool operator>(const String &st1, const String &st2) {
     return st2.str < st1.str;
 }
-bool operator == (const String & st1, const String & st2) {
+
+bool operator==(const String &st1, const String &st2) {
     return (strcmp(st1.str, st2.str) == 0);
 }
-ostream & operator << (ostream & os, const String & st) {
+
+ostream &operator<<(ostream &os, const String &st) {
     os << st.str;
     return os;
 }
-istream & operator >> (istream & is, String & st) {
+
+istream &operator>>(istream &is, String &st) {
     char temp[String::CINLIN];
     is.get(temp, String::CINLIN);
     if (is)
@@ -153,6 +180,7 @@ istream & operator >> (istream & is, String & st) {
         continue;
     return is;
 }
+
 //12_3
 Stock::Stock() {
     int len = strlen("no name");
@@ -162,6 +190,7 @@ Stock::Stock() {
     share_val = 0.0;
     total_val = 0.0;
 }
+
 Stock::Stock(const char *co, int n, double pr) {
     int len = strlen(co);
     company = new char[len + 1];
@@ -179,9 +208,11 @@ Stock::Stock(const char *co, int n, double pr) {
     share_val = pr;
     set_tot();
 }
+
 Stock::~Stock() {
-    delete [] company;
+    delete[] company;
 }
+
 void Stock::buy(int num, double price) {
     if (num < 0) {
         cerr << "Number of shares purchased can't be negative. "
@@ -192,6 +223,7 @@ void Stock::buy(int num, double price) {
         set_tot();
     }
 }
+
 void Stock::sell(int num, double price) {
     if (num < 0) {
         cerr << "Number of shares sold can't be negative. "
@@ -205,30 +237,34 @@ void Stock::sell(int num, double price) {
         set_tot();
     }
 }
+
 void Stock::update(double price) {
     share_val = price;
     set_tot();
 }
+
 void Stock::show() const {
     cout << "Company: " << company
          << " Shares: " << shares << endl
          << " Share Price: $" << share_val
          << " Total Worth: $" << total_val << endl;
 }
-ostream & operator << (ostream & os, Stock & s){
+
+ostream &operator<<(ostream &os, Stock &s) {
     os << "Company: " << s.company
        << " Shares: " << s.shares << endl
        << " Share Price: $" << s.share_val
        << " Total Worth: $" << s.total_val << endl;
     return os;
 }
-const Stock & Stock::topval(const Stock &s) const {
+
+const Stock &Stock::topval(const Stock &s) const {
     if (s.total_val > total_val)
         return s;
     return *this;
 }
 //12_4
-namespace STACK{
+namespace STACK {
     Stack::Stack(int n) {
         size = n;
         pitems = new Item[n];
@@ -237,7 +273,8 @@ namespace STACK{
         }
         top = n;
     }
-    Stack::Stack(const Stack & st){
+
+    Stack::Stack(const Stack &st) {
         size = st.size;
         pitems = new Item[size];
         for (int i = 0; i < size; ++i) {
@@ -245,46 +282,54 @@ namespace STACK{
         }
         top = st.top;
     }
+
     Stack::~Stack() {
-        delete [] pitems;
+        delete[] pitems;
     }
+
     bool Stack::isempty() const {
         return top == 0;
     }
+
     bool Stack::isfull() const {
         return top == MAX;
     }
+
     bool Stack::push(const Item &item) {
-        if (top < MAX){
+        if (top < MAX) {
             pitems[top++] = item;
             return true;
         }
         return false;
     }
+
     bool Stack::pop(Item &item) {
-        if (top > 0){
+        if (top > 0) {
             item = pitems[--top];
             return true;
         }
         return false;
     }
-    Stack & Stack::operator = (const Stack & st) {
+
+    Stack &Stack::operator=(const Stack &st) {
         if (this == &st)
             return *this;
-        delete [] pitems;
+        delete[] pitems;
         size = st.size;
         for (int i = 0; i < size; ++i) {
             pitems[i] = st.pitems[i];
         }
         top = st.top;
-        return * this;
+        return *this;
     }
 }
+
 //12_5 & 12_6
-Queue::Queue(int qs) : qsize(qs){
+Queue::Queue(int qs) : qsize(qs) {
     front = rear = NULL;
     items = 0;
 }
+
 Queue::~Queue() {
     Node *temp;
     while (front != NULL) {
@@ -293,15 +338,19 @@ Queue::~Queue() {
         delete temp;
     }
 }
+
 bool Queue::isempty() const {
     return items == 0;
 }
+
 bool Queue::isfull() const {
     return items == qsize;
 }
+
 int Queue::queuecount() const {
     return items;
 }
+
 bool Queue::enqueue(const Item &item) {
     if (isfull())
         return false;
@@ -316,6 +365,7 @@ bool Queue::enqueue(const Item &item) {
     rear = add;
     return true;
 }
+
 bool Queue::dequeue(Item &item) {
     if (front == nullptr)
         return false;
@@ -328,6 +378,7 @@ bool Queue::dequeue(Item &item) {
         rear = nullptr;
     return true;
 }
+
 void Customer::set(long when) {
     processtime = rand() % 3 + 1;
     arrive = when;
