@@ -6,29 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter09.cpp
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter14.cpp
 iostream
 -
-golf.h
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.h
-cstring
--
-Nine_4.h
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.h
+Fourteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
 
 /mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Chapter17.cpp
 fstream
 -
 iostream
 -
+algorithm
+-
 iterator
 -
 vector
 -
-algorithm
--
 Fourteen.h
 /mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
+
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.cpp
+Fourteen.h
+/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
+cstring
+-
+cstdlib
+-
+ctime
+-
 
 /mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Fourteen.h
 climits
@@ -39,16 +45,4 @@ string
 -
 valarray
 -
-
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/Nine_4.h
-
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.cpp
-golf.h
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.h
-cstring
--
-iostream
--
-
-/mnt/f/Program Files/Mine/study/TDOWN/C++/Study/golf.h
 

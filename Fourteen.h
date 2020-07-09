@@ -307,6 +307,10 @@ public:
 
     virtual void SetAll();
 
+    virtual void WriteAll(std::ostream &os);
+
+    virtual void GetAll(std::istream &is);
+
     friend std::ostream &operator<<(std::ostream &os, const abstr_emp &e);
 
     virtual ~abstr_emp() = 0;
@@ -322,6 +326,10 @@ public:
     virtual void ShowAll() const;
 
     virtual void SetAll();
+
+    virtual void WriteAll(std::ostream &os);
+
+    virtual void GetAll(std::istream &is);
 
     virtual ~employee() {}
 };
@@ -349,6 +357,10 @@ public:
 
     virtual void SetAll();
 
+    virtual void WriteAll(std::ostream &os);
+
+    virtual void GetAll(std::istream &is);
+
     virtual ~manager() {}
 };
 
@@ -375,6 +387,10 @@ public:
 
     virtual void SetAll();
 
+    virtual void WriteAll(std::ostream &os);
+
+    virtual void GetAll(std::istream &is);
+
     ~fink() {}
 };
 
@@ -394,6 +410,10 @@ public:
     virtual void ShowAll() const;
 
     virtual void SetAll();
+
+    virtual void WriteAll(std::ostream &os);
+
+    virtual void GetAll(std::istream &is);
 
     virtual ~highfink() {}
 };

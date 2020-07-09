@@ -267,6 +267,16 @@ void abstr_emp::SetAll() {
     std::cin >> job;
 }
 
+void abstr_emp::WriteAll(std::ostream &os) {
+    os << fname << std::endl << lname << std::endl << job;
+}
+
+void abstr_emp::GetAll(std::istream &is) {
+    std::getline(is, fname);
+    std::getline(is, lname);
+    std::getline(is, job);
+}
+
 std::ostream &operator<<(std::ostream &os, const abstr_emp &e) {
     os << "FirstName: " << e.fname << std::endl
        << "LastName: " << e.lname << std::endl
@@ -285,6 +295,16 @@ employee::employee(const std::string &fn, const std::string &ln,
 void employee::ShowAll() const { abstr_emp::ShowAll(); }
 
 void employee::SetAll() { abstr_emp::SetAll(); }
+
+void employee::WriteAll(std::ostream &os) {
+    os << (int)0 << std::endl;
+    abstr_emp::WriteAll(os);
+    os << std::endl;
+}
+
+void employee::GetAll(std::istream &is) {
+    abstr_emp::GetAll(is);
+}
 
 manager::manager() : abstr_emp(), inchargeof(0) {}
 
@@ -307,6 +327,19 @@ void manager::SetAll() {
     std::cin >> inchargeof;
 }
 
+void manager::WriteAll(std::ostream &os) {
+    os << (int)1 << std::endl;
+    abstr_emp::WriteAll(os);
+    os << std::endl << inchargeof;
+    os << std::endl;
+}
+
+void manager::GetAll(std::istream &is) {
+    abstr_emp::GetAll(is);
+    is >> inchargeof;
+    is.get();
+}
+
 fink::fink() : abstr_emp(), reportsto("") {}
 
 fink::fink(const std::string &fn, const std::string &ln, const std::string &j,
@@ -327,6 +360,18 @@ void fink::SetAll() {
     abstr_emp::SetAll();
     std::cout << "Enter ReportsTo: ";
     std::cin >> reportsto;
+}
+
+void fink::WriteAll(std::ostream &os) {
+    os << (int)2 << std::endl;
+    abstr_emp::WriteAll(os);
+    os << std::endl << reportsto;
+    os << std::endl;
+}
+
+void fink::GetAll(std::istream &is) {
+    abstr_emp::GetAll(is);
+    std::getline(is, reportsto);
 }
 
 highfink::highfink() : abstr_emp(), manager(), fink() {}
@@ -358,4 +403,18 @@ void highfink::SetAll() {
     std::cin >> InChargeOf();
     std::cout << "Enter ReportsTo: ";
     std::cin >> ReportsTo();
+}
+
+void highfink::WriteAll(std::ostream &os) {
+    os << (int)3 << std::endl;
+    abstr_emp::WriteAll(os);
+    os << std::endl << InChargeOf() << std::endl << ReportsTo();
+    os << std::endl;
+}
+
+void highfink::GetAll(std::istream &is) {
+    abstr_emp::GetAll(is);
+    is >> InChargeOf();
+    is.get();
+    std::getline(is, ReportsTo());
 }
