@@ -115,7 +115,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Study
 CMAKE_LINKER:FILEPATH=F:/Program Files/MSYS2/mingw32/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=F:/Program Files/Cygwinx86_64/bin/make.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=F:/Program Files/Cygwinx86_64/bin/make.exe/make.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.

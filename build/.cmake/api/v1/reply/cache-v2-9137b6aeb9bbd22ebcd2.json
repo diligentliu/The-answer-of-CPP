@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "F:/Program Files/Cygwinx86_64/bin/make.exe"
+			"value" : "F:/Program Files/Cygwinx86_64/bin/make.exe/make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
