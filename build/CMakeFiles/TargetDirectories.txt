@@ -1,3 +1,0 @@
-F:/Program Files/Mine/study/TDOWN/C++/Study/build/CMakeFiles/rebuild_cache.dir
-F:/Program Files/Mine/study/TDOWN/C++/Study/build/CMakeFiles/edit_cache.dir
-F:/Program Files/Mine/study/TDOWN/C++/Study/build/CMakeFiles/Study.dir
